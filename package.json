@@ -1,5 +1,5 @@
 {
-  "name": "pretty-console-log",
+  "name": "@softwarecradle/pretty-console-log",
   "version": "1.0.0",
   "description": "A collection of functions to help output prettified alternatives to standard console.log()",
   "main": "index.js",
