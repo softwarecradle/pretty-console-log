@@ -1,5 +1,5 @@
 // print in color
-exports.pretty = Object.freeze({
+exports.pretty = {
     log(text, color) {
         console.log(`%c${text}`, `color: ${color}`)
     },
@@ -7,4 +7,4 @@ exports.pretty = Object.freeze({
     log(text, color, fontSize) {
         console.log(`%c${text}`, `color: ${color}; font-size: ${fontSize}px`)
     }
-})
+}
