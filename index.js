@@ -1,5 +1,5 @@
 // print in color
-module.exports = Object.freeze({
+exports.pretty = Object.freeze({
     log(text, color) {
         console.log(`%c${text}`, `color: ${color}`)
     },
